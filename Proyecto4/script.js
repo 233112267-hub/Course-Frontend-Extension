@@ -26,4 +26,7 @@ function mostrarLibrosLeidos() {
 agregarLibro("Las Aventuras de Sherlock Holmes");
 agregarLibro("Cien Años de Soledad");
 agregarLibro("Las Vacas Quiviquitas");
+agregarLibro("La Sombra del Viento");
+agregarLibro("Las batallas en el desierto");
+agregarLibro("El Principito");
 mostrarLibrosLeidos();
