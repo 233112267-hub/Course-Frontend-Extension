@@ -74,3 +74,14 @@ if (usuario === "ailyn" && contrasena === "admin") {
 } else {
     console.log("Acceso denegado");
 }
+
+x=10
+while (x > 0) {
+    console.log(x);
+    x--;
+}
+let j=1
+do{
+    console.log(j);
+    j++;
+} while (j <= 10);
