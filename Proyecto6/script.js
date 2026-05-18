@@ -24,6 +24,7 @@ let comentario = document.getElementById('commentaInput').value;
        //Obtener la fecha y hora con el formato 
         let fechaCompleta =
         fecha.getDate() + "/" +
+        // NOTA: en getMonth() se obtiene del 1 a 11 por eso es obligatorio que se sume uno
         (fecha.getMonth() + 1) + "/" +
         fecha.getFullYear() + " " +
         fecha.getHours() + ":" +
