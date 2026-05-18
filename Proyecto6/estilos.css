@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(135deg, #006cf9 20%, #c44310 100%);
+  /* La imagen de la pantalla no este dispareja  y el background se vea en uno solo*/      
+    height: 100vh;
+    margin: 0;
+}
+
+/* Título */
+h1 {
+    font-size: 28px;
+    color: rgb(50, 70, 161);
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+h1:hover {
+  color: rgb(54, 36, 111);
+}
+/* Contenedor principal */
+.cuestionario {
+    font-family: normal ;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+/* Botones generales */
+button{
+   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 10px 15px rgba(82, 17, 97, 0.4);
+}
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(6, 37, 89, 0.3);
+}
