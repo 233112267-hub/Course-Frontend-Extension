@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja de comentarios</title>
+</head>
+<body>
+
+    <nav>
+        
+        <ul>
+            <li><a href="pagina.html"><img src="logo.png" alt="Logo de la empresa" width="100"></a></li>
+            <li><a href="Widgets.html">Widgets</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Ayuda.html">Centro de ayuda</a></li>
+            <li><a href="Inicio.html">Iniciar sesión</a></li>
+            <li><a href="Registrar.html">Registrarse</a></li>
+        
+        </ul>
+    </nav>
+    
+  <div class="caja-nuevo">
+    <div class="fila-nombre">
+      <div class="avatar-vacio">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+        </svg>
+      </div>
+      <input class="campo-nombre" id="campo-nombre" type="text" placeholder="Tu nombre..." />
+    </div>
+    <textarea class="campo-comentario" id="campo-comentario" placeholder="Escribe un comentario..."></textarea>
+
+    <div class="fila-acciones">
+      <button class="emoji-btn" onclick="toggleEmojis()" title="Insertar emoji">😊</button>
+      <button class="btn-publicar" onclick="publicarComentario()">Comentario</button>
+    </div>
+    <p class="invitado-txt">Deja un comentario como invitado o inicia sesión con Google / Facebook</p>
+  </div>
+ 
+  <hr class="separador" />
+  <div id="lista-comentarios"></div>
+ 
+</div>
+ 
+<div class="notificacion" id="notificacion"></div>
+ 
+
+
+</body>
+</html>
