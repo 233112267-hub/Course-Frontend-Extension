@@ -1,0 +1,18 @@
+.tarjeta {
+  border: 1px solid #277ea3;
+  background-color: #29a7ab;
+  padding: 20px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.App{
+  background-color: #6ec4a4;
+  color: #fff;
+}
