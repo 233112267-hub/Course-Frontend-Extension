@@ -1,0 +1,13 @@
+button{
+  background-color: #af4caf; 
+  border-radius: 5px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 40px;
+  width: 100px;
+}
+.App{
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
