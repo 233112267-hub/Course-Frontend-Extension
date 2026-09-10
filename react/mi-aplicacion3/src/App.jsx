@@ -7,7 +7,7 @@ function App() {
   const [duracion, setDuracion] = useState('');
 
   const calcularTiempoTotal = useMemo(() => {
-    console.log("Calculando tiempo total...");
+    console.log("Calculando tiempo total:", tareas);
 
     return tareas.reduce(
       (total, tarea) => total + tarea.duracion,
